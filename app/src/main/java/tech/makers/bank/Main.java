@@ -11,6 +11,5 @@ public class Main {
         bank.withdraw(500, LocalDate.of(2021, 1, 14));
         bank.deposit(13.52f, LocalDate.of(2021, 2, 2));
         System.out.println(bank.generateStatement());
-
     }
 }
